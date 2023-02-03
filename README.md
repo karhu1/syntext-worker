@@ -7,3 +7,5 @@ End goals that would be good to get done include:
 3. Anything else!
 
 To set up modules, run this command in the console, `npm i discord.js discord-api-types #discordjs/rest dotenv chalk@4.1.2`.
+
+Additionally create a file called `.env` in the repo's folder, and ask for the token that it will hold!
