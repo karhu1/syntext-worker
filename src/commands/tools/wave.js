@@ -9,7 +9,9 @@ module.exports = {
       fetchReply: true
     });
 
-    const newMessage = `Wave at ${message.author.username}`;
+    const newMessage = `Wave at <@${interaction.user.id}>`;
+    console.log(interaction)
+    console.log(message)
     await interaction.editReply({
       content: newMessage
     });
