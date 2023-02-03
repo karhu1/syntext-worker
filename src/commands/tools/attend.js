@@ -9,7 +9,7 @@ module.exports = {
       fetchReply: true
     });
 
-    const newMessage = `${client.displayName} will be attending.`;
+    const newMessage = `I will be attending.`;
     await interaction.editReply({
       content: newMessage
     });
